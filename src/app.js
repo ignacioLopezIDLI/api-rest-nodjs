@@ -1,6 +1,6 @@
 // Importo Express
 import Express from "express"
-import IndexRuoutes from "./rutas/index"
+import TasksRutas from "./rutas/tasksrutas"
 
 // Creo Instancia de APP
 const app = Express()
@@ -13,6 +13,6 @@ app.get("/",(req,res)=>{
     res.json({mesage:"Bienvenido a la Aplicacion"})
 })
 
-app.use(IndexRuoutes)
-
+app.use("/api/tasks",TasksRutas)
+    
 export default app

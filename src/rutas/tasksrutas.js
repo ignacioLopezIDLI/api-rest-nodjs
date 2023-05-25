@@ -4,7 +4,7 @@ const router = Router()
 
 
 // Rutas
-router.get("/tasks",(req,res)=>{
+router.get("/",(req,res)=>{
     res.send("Tasks")
 })
 
