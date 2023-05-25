@@ -1,6 +1,4 @@
-import Express from "express";
+import app from "./app"
 
-const app = Express()
-
-app.listen(3002)
-console.log("Server on port ",3002);
+app.listen(app.get("puerto"))
+console.log("Servidor en el puerto  ", app.get("puerto"))
