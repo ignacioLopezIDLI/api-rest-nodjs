@@ -1,3 +1,4 @@
+// Importo App configuracion del servidor - Database config base datos
 import app from "./app"
 import "./database.js"
 

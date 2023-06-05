@@ -1,3 +1,4 @@
+// Importo mongoose - Config para leer varible entorno 
 import mongoose from "mongoose"
 import config from "./config"
 
