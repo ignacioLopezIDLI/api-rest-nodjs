@@ -4,5 +4,5 @@ config()
 
 // Exporto la varible con un nombre mas facil
 export default{
-    mongodbURL: process.env.MONGODB_URI
+    mongodbURL: process.env.MONGODB_URI || "mongodb://localhost/tasksdb"
 }
